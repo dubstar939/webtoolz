@@ -549,7 +549,7 @@ export default function App() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="939PRO Studios" className="w-9 h-9 object-contain" />
+              <div className="w-9 h-9 flex items-center justify-center bg-indigo-600 rounded-lg text-white font-bold text-xs">939</div>
               <span className="text-xl font-bold">939PRO Studios</span>
             </div>
 
@@ -688,7 +688,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="939PRO Studios" className="w-8 h-8 object-contain" />
+              <div className="w-8 h-8 flex items-center justify-center bg-indigo-600 rounded-lg text-white font-bold text-xs">939</div>
               <span className="font-semibold">939PRO Studios</span>
             </div>
             
